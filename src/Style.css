@@ -80,10 +80,28 @@ ul{
 .resumo{
     font-size: 1.5rem;
     font-weight: 600;
+    margin-bottom: var(--gap);
 }
 
 .resumo h2{
     font-size: 1.5rem;
     margin-bottom: var(--gap);
     color: var(--color-1);
+}
+
+.sale{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    gap: var(--gap);
+    margin-bottom: var(--gap-s);
+    align-items: center;
+}
+
+.sale div:last-child{
+    justify-self: end;
+}
+
+.sale a{
+    text-decoration: none;
+    color: inherit;
 }
