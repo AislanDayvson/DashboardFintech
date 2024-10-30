@@ -18,8 +18,8 @@ const App = () => {
             <Header />
             <Routes>
               <Route path='/' element={<Resumo />}/>
-              <Route path='/sales' element={<Sales />}/>
-              <Route path='/sale/:id' element={<Sale />}/>
+              <Route path='/vendas' element={<Sales />}/>
+              <Route path='/vendas/:id' element={<Sale />}/>
             </Routes>
           </main>
         </div>
