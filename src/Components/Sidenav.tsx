@@ -1,6 +1,7 @@
 import resumo from '../assets/icons/resumo.svg'
 import vendas from '../assets/icons/vendas.svg'
 import FintechSVG from '../assets/FintechSVG'
+import { NavLink } from 'react-router-dom'
 const Sidenav = () => {
   return (
     <nav className='sidenav box bg-3'>
@@ -8,11 +9,11 @@ const Sidenav = () => {
       <ul>
         <li>
           <span><img src={resumo} alt="" /></span>
-          <a href="">Resumo</a>
+          <NavLink to='/'>Resumo</NavLink>
         </li>
         <li>
           <span><img src={vendas} alt="" /></span>
-          <a href="">Vendas</a>
+          <NavLink to='/sales'>Vendas</NavLink>
         </li>
       </ul>
     </nav>
